@@ -1,18 +1,17 @@
 ---
-title: Colophon
+title: About
 permalink: /about/
 layout: page
-excerpt: Hello peeps, I'm student of computer science from Banyuwangi, living in Jogjakarta. This blog for documentation about my programming journey, running on jekyll, hosting on netlify and using my own simple theme.
+excerpt: Hi, I'm Daniel. I thrive in the intersection of technology, business, and design.
 comments: false
 ---
 
-He's a student from Banyuwangi, living in Jogjakarta. the blog for documentation about his programming 🎒 journey, running on jekyll, hosting on [now.sh](http://now.sh) and using his own theme, he name it <a href="https://github.com/piharpi/jekyll-klise" target="_blank" rel="noopener">klisé</a>, he also loves to learning web technology; but he often forgot, that a reason why him doing the writing.
+Hi, I'm Daniel 👋
 
-If you have a question about him or else, just send a letter to him.
+I thrive in the intersection of technology, business, and design. My formal education is in finance and accounting, but I've since found myself doing web development, then entrepreneurship, then management, and everything inbetween.
 
-You can [report](http://github.com/piharpi/jekyll-klise/issues/new) if there is an broken link(s) or somethings else.
+Since 2015, I've been with [SPACE10](https://www.space10.com) — a Research & Design lab, working exclusively with concept innovation on behalf of IKEA.
 
-**may u needs ✨**
+This site act as a public record of my thoughts, learnings, and inspiration.
 
-- {{ site.author.email }}
-- github.com/{{ site.author.github }}
+Feel free to connect on either [Twitter](https://www.twitter.com/daniel_friis) or [LinkedIn](http://www.linkedin.com/in/dfriis)

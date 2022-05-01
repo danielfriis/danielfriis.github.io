@@ -8,6 +8,7 @@
   margin-left: auto;
   border-bottom: 1px solid $light;
   padding: $spacing-full - 15px $spacing-full;
+  line-height: 1.85;
   @extend %clearfix;
 }
 
@@ -204,14 +205,14 @@
 
   .author-name {
     font-size: 1.7em;
-    margin-bottom: 2px;
+    margin-bottom: 5px;
   }
 
   .author-bio {
     margin: 0 auto;
     opacity: 0.9;
     max-width: 393px;
-    line-height: 1.688;
+    line-height: 1.5;
   }
 }
 
@@ -228,6 +229,7 @@
   display: flex;
   padding-top: 5px;
   padding-bottom: 6px;
+  line-height: 1.85;
   @extend %clearfix;
 
   &:not(:first-child) {
@@ -236,8 +238,7 @@
 
   .post-item-date {
     min-width: 96px;
-    color: $black;
-    font-weight: 700;
+    color: $gray;
     padding-right: 10px;
 
     @include media-query($on-mobile) {
@@ -273,11 +274,15 @@
   @include media-query($on-mobile) {
     margin-top: 3em;
   }
+  .footer_item {
+    font-size: $small-font-size;
+  }
   span.footer_item {
     color: $black;
     opacity: 0.8;
-    font-weight: $bold-weight;
-    font-size: $small-font-size;
+    // font-weight: $bold-weight;
+    // font-size: $small-font-size;
+    margin-right: 20px;
   }
   a.footer_item {
     color: $black;

@@ -1,0 +1,50 @@
+---
+title: Favorites
+permalink: /favorites/
+layout: page
+excerpt: Favorites.
+comments: false
+---
+
+<div class="inspiration-feed">
+{%- for post in site.recommendations reversed -%}
+  <div class="inspiration-item-wrapper">
+    <article class="inspiration-item flex-column">
+      {%- if post.type == 'tweet' -%}
+        
+        <!-- TWEET -->
+        <div class="inspiration-item-padding">
+          {{ post.content }}
+          <div class="twitter-author">
+            <img class="twitter-avatar" height="20px" width="20px" src="{{ post.avatar }}">
+            <span>{{ post.author_name }}</span>
+          </div>
+        </div>
+
+      {%- elsif post.type == 'video.other' -%}
+
+        <!-- YOUTUBE -->
+        <div class="flex-row">
+          <iframe class="youtube-iframe" src="https://www.youtube.com/embed/NYYpisXsiRU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+
+      {%- else -%}
+
+        <!-- ARTICLE -->
+        <div class="inspiration-item-padding flex-row">
+          <div class="inspiration-item-text flex-column">
+            <h3 class="inspiration-item-title">
+              <a href="{{ post.source_url }}" target="_blank">{{ post.title | escape }}</a>
+            </h3>
+            <p class="inspiration-item-description">{{ post.description }}</p>
+          </div>
+          <div class="inspiration-item-img-container">
+            <img class="inspiration-item-img" src="{{ post.images[0] }}">
+          </div>
+        </div>
+      {%- endif -%}
+    </article>
+    <span class="inspiration-item-meta">{{ post.date | date: "%b %d, %Y" }}</span><span class="inspiration-item-meta">{{ post.source_domain }}</span>
+  </div>
+{%- endfor -%}
+</div>

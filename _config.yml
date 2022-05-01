@@ -1,29 +1,25 @@
 # Site settings
-title: Klise Theme # site title
+title: Daniel Friis # site title
 description: >- # site description
-  He's writing in Bahasa about web technology and experience as a journal 
-  for documentation things that he learned, meet him <a href="https://github.com/piharpi" target="_blank" rel="noopener">@github</a>.
+  Ramblings, observations, learnings by Daniel Friis.
 lang: en-US # default lang
-timezone: Asia/Jakarta # set your timezone
+timezone: Europe/Copenhagen # set your timezone
 image: assets/img/ogp.png # This image used for Open Graph more info https://ogp.me/
-repo: https://github.com/piharpi/jekyll-klise # site repo [optional]
-mode: dark # default theme "dark" | "light"
+repo: https://github.com/danielfriis/journal # site repo [optional]
+mode: light # default theme "dark" | "light"
 
 # Profile settings
 author:
-  name: Jekyll Klisé # author name
+  name: Daniel Friis # author name
   bio: >- # tell to the world
-    The minimalist Jekyll theme, light and dark mode support, for running a personal site and blog, 
-    meet Klisé theme at <a href="https://github.com/piharpi/jekyll-klise" target="_blank" rel="noopener">@github</a>.
-  username: username # general username
-  github: github_username # github username
-  twitter: twitter_username # twitter username
-  facebook: facebook_username # facebook username
-  email: your-email@email.com # email adress
+    I'm obsesed about technology, business, and design. This site acts as a public record and outlet for my thoughts, learnings, and inspiration.
+  twitter: daniel_friis # twitter username
+  linkedin: dfriis # linkedin username
+  email: d@friis.me # email adress
   avatar: /assets/img/avatar.jpg # change with your own avatar
 
 # URL settings
-url: "https://klise.now.sh" #
+url: "https://www.danielfriis.com" #
 baseurl:
 permalink: /:title/
 google_analytics: # leave it blank if not wish
@@ -33,6 +29,7 @@ fb_appid:
 collections:
   posts:
     output: true
+  recommendations:
 
 # Markdown settings
 markdown: kramdown

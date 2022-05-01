@@ -1,8 +1,10 @@
 <footer class="footer">
-  <a class="footer_item" href="/thanks">ack.</a>
-  <a class="footer_item" href="javascript::void(0)">resume</a>
-  <a class="footer_item" href="/feed.xml">rss</a>
-  <span class="footer_item">&copy; {{ site.time | date: "%Y" }}</span>
+  <!-- <a class="footer_item" href="/thanks">ack.</a> -->
+  <!-- <a class="footer_item" href="javascript::void(0)">resume</a> -->
+  <span class="footer_item">&copy; {{ site.time | date: "%Y" }} {{ site.title }}</span>
+  <a class="footer_item" href="https://www.twitter.com/{{ site.author.twitter }}">Twitter</a>
+  <a class="footer_item" href="https://www.linkedin.com/in/{{ site.author.linkedin }}">Linkedin</a>
+  <a class="footer_item" href="/feed.xml">RSS</a>
   <small class="footer_copyright">
     <!-- Klisé Theme: https://github.com/piharpi/jekyll-klise -->
     <a
