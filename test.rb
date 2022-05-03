@@ -1,3 +1,8 @@
+# TODO: Add twitter scraping
+# TODO: Add amazon scraping
+# TODO: Add author scraping (books, articles, tweets)
+# TODO: Add source domain
+
 
 # Twitter regex https://regex101.com/r/mNsp3o/4
 # Twitter tweet lookup https://github.com/twitterdev/Twitter-API-v2-sample-code/blob/main/Tweet-Lookup/get_tweets_with_bearer_token.rb
