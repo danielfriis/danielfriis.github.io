@@ -1,5 +1,5 @@
 ---
-title: Longtermtrends | Find the most interesting financial charts!
+title: Longtermtrends
 date: 2022-05-01 20:05:53.641966000 +02:00
 source_url: https://www.longtermtrends.net
 source_domain: longtermtrends.net

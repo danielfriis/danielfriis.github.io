@@ -46,3 +46,5 @@ File.write(
 )
 
 puts "Success!"
+puts "File created:"
+puts file
