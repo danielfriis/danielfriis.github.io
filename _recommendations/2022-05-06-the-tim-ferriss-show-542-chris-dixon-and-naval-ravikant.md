@@ -1,10 +1,8 @@
 ---
-title: "The Tim Ferriss Show #542: Chris Dixon and Naval Ravikant — The Wonders
-  of Web3, How to Pick the Right Hill to Climb, Finding the Right Amount of Crypto
-  Regulation, Friends with Benefits, and the Untapped Potential of NFTs on Apple Podcasts"
+title: "The Tim Ferriss Show #542: Chris Dixon and Naval Ravikant"
 date: 2022-05-06 09:37:43.962178000 +02:00
 source_url: https://podcasts.apple.com/dk/podcast/542-chris-dixon-and-naval-ravikant-the-wonders-of/id863897795?i=1000540043607
-source_domain: ''
+source_domain: podcasts.apple.com
 author_name: ''
 author_avatar: ''
 type: product.item
