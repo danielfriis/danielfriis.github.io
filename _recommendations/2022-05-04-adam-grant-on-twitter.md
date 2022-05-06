@@ -3,6 +3,7 @@ title: Adam Grant on Twitter
 date: 2022-05-04 14:47:08.841865000 +02:00
 source_url: https://twitter.com/adammgrant/status/1518244137082011648
 source_domain: twitter.com
+category: tweets
 type: tweet
 description:
 author_name: Adam Grant

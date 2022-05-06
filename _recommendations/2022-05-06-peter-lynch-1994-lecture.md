@@ -6,6 +6,7 @@ embed_url: https://www.youtube.com/embed/72Pq5zKEi_g
 source_domain: 'youtube.com'
 author_name: ''
 author_avatar: ''
+category: videos
 type: video.other
 description: Making Money in the Stock Market. Peter Lynch on Investing in the US Economy 1994
 images:

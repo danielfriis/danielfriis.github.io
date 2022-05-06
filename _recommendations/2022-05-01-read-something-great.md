@@ -3,6 +3,7 @@ title: Read Something Great
 date: 2022-05-01 13:22:39.015121000 +02:00
 source_url: https://www.readsomethinggreat.com/
 source_domain: readsomethinggreat.com
+category: services
 type: website
 description: Timeless articles from the belly of the internet. Manually curated. Served 5 at a time. Guaranteed great reads.
 images:

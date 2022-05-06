@@ -5,6 +5,7 @@ source_url: https://podcasts.apple.com/dk/podcast/542-chris-dixon-and-naval-ravi
 source_domain: podcasts.apple.com
 author_name: ''
 author_avatar: ''
+category: podcasts
 type: product.item
 description: "The Wonders of Web3, How to Pick the Right Hill to Climb, Finding the Right Amount
   of Crypto Regulation, Friends with Benefits, and the Untapped Potential of NFTs"
