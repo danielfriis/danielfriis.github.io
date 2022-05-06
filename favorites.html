@@ -10,7 +10,7 @@ comments: false
 {%- for post in site.recommendations reversed -%}
   <div class="inspiration-item-wrapper">
     <article class="inspiration-item flex-column">
-      {%- if post.type == 'tweet' -%}
+      {%- if post.source_domain == 'twitter.com' -%}
         
         <!-- TWEET -->
         <div class="inspiration-item-padding">
@@ -21,11 +21,11 @@ comments: false
           </div>
         </div>
 
-      {%- elsif post.type == 'video.other' -%}
+      {%- elsif post.source_domain == 'youtube.com' -%}
 
         <!-- YOUTUBE -->
         <div class="flex-row">
-          <iframe class="youtube-iframe" src="https://www.youtube.com/embed/NYYpisXsiRU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          <iframe class="youtube-iframe" src="{{ post.embed_url }}" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         </div>
 
       {%- else -%}
