@@ -5,8 +5,7 @@ source_url: https://www.longtermtrends.net
 source_domain: longtermtrends.net
 type: service
 description: |-
-  Our mission is to find the most interesting and educational charts with rich historical data, and
-  to make these charts available online.
+  Important financial charts which put the current economy into a historic and relative context.
 images:
 - https://www.longtermtrends.net/static/my_app/images/longtermtrends-preview-image.png
 ---

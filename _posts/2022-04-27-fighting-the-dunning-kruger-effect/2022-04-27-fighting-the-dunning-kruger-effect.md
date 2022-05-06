@@ -1,7 +1,7 @@
 ---
 title: Fighting the Dunning-Kruger effect
 date: 2022-05-03 13:07:47 +01:00
-modified:
+modified: 2022-05-06 08:36:47 +01:00
 tags: [learning]
 description: Writing notes. My way of expanding my knowledge and capture what I learn.
 image:
@@ -18,4 +18,4 @@ That’s when I decided to try and capture my learnings and do so moving forward
 
 I’ve chosen to capture my learnings in the format of ‘notes’ because what I write is not, and will not, be the objective truth. It is simply my observation of the world and what I reason from it. 
 
-Writing these notes has helped me clarify my thinking; maybe they can help others too.
+Writing these notes helps me clarify my thinking; maybe they can help others too.
