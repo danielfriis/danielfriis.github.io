@@ -1,17 +1,18 @@
 ---
 title: Goals are not strategy
 date: 2022-05-06 15:06:10 +02:00
+modified: 2022-05-09 15:29:10 +02:00
 tags: [strategy]
 description: There are many opinions about what strategy is and how to do it well. However, most people get it wrong. A good strategy should clearly and specifically define the obstacle of a situation and outline a set of coordinated actions to deal with that obstacle.
 image:
 published: true
 ---
 
-There are many opinions about what strategy is and how to do it well. However, most people get it wrong. Often, people don’t know where to draw the line between mission, vision, goals, objectives, and strategy. While I usually don’t care about semantics too much, it’s essential in this instance since [many strategies fail otherwise](https://hbr.org/2017/11/many-strategies-fail-because-theyre-not-actually-strategies). They fail because they are, in fact, not strategies.
+There are many opinions about what strategy is and how to do it well. So many, in fact, that it’s easy to get confused. Researching online is not much help either; often, people don’t know where to draw the line between mission, vision, goals, objectives, and strategy. Yet, getting it right is vital to succeeding with your efforts since [most strategies fail](https://hbr.org/2017/11/many-strategies-fail-because-theyre-not-actually-strategies) because they are, in fact, not strategies. That’s why – for my own benefit if nothing else – I decided to write-up a simple and actionable description of what strategy is.
 
-From my experience, goals are most often confused with strategy. They may sound something like: “Our strategy is to become the leading software consultancy in the world”, which is a great aspiration, but nothing but wishful thinking without a proper plan. 
+From my experience, goals are most often confused with strategy. Someone might say: “Our strategy is to become the leading software consultancy in the world”, which is a great aspiration, but nothing but wishful thinking without a proper plan. The problem with such ‘strategies’ is that they don’t guide action and decision-making. 
 
-The problem with such ‘strategies’ is that they don’t guide action and decision-making. A good strategy should clearly and specifically define the obstacle of a situation and outline a set of coordinated actions to deal with that obstacle. They should make it clear to everyone in the company what to do and - most importantly - what not to do.
+A good strategy should clearly and specifically define the obstacle of a situation and outline a set of coordinated actions to deal with that obstacle. A good strategy should make it clear to everyone in the company what to do and - most importantly - what not to do.
 
 My take on strategy draws on the Situation-Complication-Resolution (SCR) framework by McKinsey and definitions from the book Good Strategy/Bad Strategy by Richard Rumelt, along with my own experiences on the matter. 
 
@@ -48,7 +49,9 @@ As a final element of your strategy, you must describe the specific actions whic
 
 Upon returning to Apple in 1997, Steve Jobs gave an excellent speech to employees where he outlined Apple’s new strategy. The video is uploaded to highlight the brilliance of Job’s marketing strategy, but the first part is equally brilliant. Here, he presents two new strategies addressing product and distribution, before moving on to marketing. 
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/MrZKoWgcZVg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<div class="video-wrapper">
+	<iframe width="560" height="315" src="https://www.youtube.com/embed/MrZKoWgcZVg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
 
 
 ## Common mistakes
@@ -72,7 +75,9 @@ Most people think that focus is about the things you say ‘yes’ to, but in re
 
 Once again, Steve Jobs made an excellent point on the matter.
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/H8eP99neOVs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<div class="video-wrapper">
+	<iframe width="560" height="315" src="https://www.youtube.com/embed/H8eP99neOVs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
 
 ## Weigh-in for buy-in
 
