@@ -7,8 +7,7 @@ author_name: ''
 author_avatar: ''
 category: podcasts
 type: product.item
-description: "The Wonders of Web3, How to Pick the Right Hill to Climb, Finding the Right Amount
-  of Crypto Regulation, Friends with Benefits, and the Untapped Potential of NFTs"
+description: "A great primer on Web3 and the potential of NFTs with Naval Ravikant and Chris Dixon."
 images:
 - https://is5-ssl.mzstatic.com/image/thumb/Podcasts126/v4/ca/b5/c7/cab5c7c3-87dc-38e9-e053-bb890f42b484/mza_9248659527180233494.jpeg/552x0w.webp
 ---

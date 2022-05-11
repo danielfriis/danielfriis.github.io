@@ -6,7 +6,7 @@ source_domain: goodreads.com
 category: books
 type: books.book
 description: Best book on strategy. Simply and specifically clarifies what constitues good strategy and what doesn't.
-author: Richard P. Rumelt
+author_name: Richard P. Rumelt
 images:
 - https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1360570381l/11721966.jpg
 ---
