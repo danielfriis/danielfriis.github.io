@@ -39,6 +39,7 @@ data = {
 	'source_domain' => "",
 	'author_name' => "",
 	'author_avatar' => "",
+	'author_handle' => "",
 	'category' => "",
 	'type' => og.type,
 	'description' => og.description,
