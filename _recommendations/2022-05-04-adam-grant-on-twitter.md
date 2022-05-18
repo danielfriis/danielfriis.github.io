@@ -8,7 +8,7 @@ type: tweet
 description:
 author_name: Adam Grant
 author_avatar: https://pbs.twimg.com/profile_images/1427272847643316232/9CeNBJAr_400x400.jpg
-author_handle: @adamgrant
+author_handle: '@adamgrant'
 images:
 ---
 
