@@ -1,31 +1,32 @@
 ---
-title: Goals are not strategy
+title: Strategy is problem-solving
 date: 2022-05-06 15:06:10 +02:00
-modified: 2022-06-05 21:04:10 +02:00
+modified: 2022-06-24 11:48:10 +02:00
 tags: [strategy]
-description: There are many opinions about what strategy is and how to do it well. However, most people get it wrong. A good strategy should clearly and specifically define the obstacle of a situation and outline a set of coordinated actions to deal with that obstacle.
+description: There are many opinions about what strategy is and how to do it well. However, most people get it wrong. A good strategy is not goal-setting — it is problem-solving.
 image:
 published: true
 ---
 
-There are many opinions about what strategy is and how to do it well. So many, in fact, that it’s easy to get confused. Researching online is not much help either; often, people don’t know where to draw the line between mission, vision, goals, objectives, and strategy. Yet, getting it right is vital to succeeding with your efforts since [most strategies fail](https://hbr.org/2017/11/many-strategies-fail-because-theyre-not-actually-strategies) because they are, in fact, not strategies. That’s why – for my own benefit if nothing else – I decided to write-up a simple and actionable description of what strategy is.
+I’ve seen many versions of what strategy is and how to do it well but rarely two versions that look the same. Frankly, I’ve been quite confused as words like mission, vision, goals, objectives, and strategy are used interchangeably by most people.
 
-From my experience, goals are most often confused with strategy. Someone might say: “Our strategy is to become the leading software consultancy in the world”, which is a great aspiration, but nothing but wishful thinking without a proper plan. The problem with such ‘strategies’ is that they don’t guide action and decision-making. 
+To make matters worse, it seems that [most strategies fail because they are in fact not strategies](https://hbr.org/2017/11/many-strategies-fail-because-theyre-not-actually-strategies). So, those people that talk about strategy often don’t know what strategy is. I hope I’m not joining that choir by writing this note, but instead can be a voice of clarity.
 
-A good strategy should clearly and specifically define the obstacle of a situation and outline a set of coordinated actions to deal with that obstacle. A good strategy should make it clear to everyone in the company what to do and - most importantly - what not to do.
+From my experience, goals are most often confused with strategy. A goal disguised as strategy may sound something like: “Our strategy is to become the leading software consultancy in the world”, which is a great aspiration, but nothing but wishful thinking without a proper plan. The problem with such ‘strategies’  is that they don’t guide action and decision-making.
 
-My take on strategy draws on the Situation-Complication-Resolution (SCR) framework by McKinsey and definitions from the book Good Strategy/Bad Strategy by Richard Rumelt, along with my own experiences on the matter. 
+>Strategy is not goal-setting — it’s problem-solving. 
 
-From my experience, a good strategy consists of four elements; 1) Situation, 2) Obstacle, 3) Approach, 4) Actions.
+A good strategy should clearly and specifically define the obstacle of a situation and outline a set of coordinated actions to deal with that obstacle. They should make it clear to everyone involved in carrying out the strategy what to do and what not to do.
 
+My take on strategy follows a simple four-element build-up, based on the Situation-Complication-Resolution (SCR) framework by McKinsey and definitions from the book Good Strategy/Bad Strategy by Richard Rumelt.
 
-#### Situation 
+#### 1) Situation 
 First, you must describe the circumstances you find yourself in. They might be self-imposed or the result of things outside your control, like changing consumer preferences. The common denominator is that they describe circumstances outside your direct control; an outcome rather than a cause.
 
 *Example: Customer satisfaction has dropped 15%*
 
 
-#### Obstacle
+#### 2) Obstacle
 Next, you must identify the reason for the situation; i.e. the obstacle which is preventing you from reaching a more favorable state. You can do so by asking 'why' and keep doing that until you reach the core reason for the situation. The trick is to not go so far that your obstacle becomes a solution; or not far enough, that your obstacle remains a ‘situation’. As an example, ‘Underperformance’ is not an obstacle; that’s an outcome of your obstacle — i.e. still in the situation realm.
 
 Customer satisfaction has dropped 15% — Why? — Because the quality of our product has decreased — Why? — Because we’ve neglected maintenance on our machines
@@ -33,13 +34,13 @@ Customer satisfaction has dropped 15% — Why? — Because the quality of our pr
 *Example: Lack of maintenance on our machines*
 
 
-#### Approach 
+#### 3) Approach 
 The next step is to start describing the solution to your obstacle. The approach describes as a one-liner, the outcome of whatever actions you'll be taking to address the obstacle. It should be specific enough to focus and align those subsequent actions.
 
 *Example: Improve and maintain the condition of our machinery*
 
 
-#### Actions 
+#### 4) Actions 
 As a final element of your strategy, you must describe the specific actions which leads to the outcome described by your approach. The actions should be coordinated and support each other towards the same outcome.
 
 *Example: 1) Hire two technicians, 2) Define protocols for maintenance and inspection*
