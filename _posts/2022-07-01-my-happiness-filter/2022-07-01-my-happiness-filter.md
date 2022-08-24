@@ -1,5 +1,5 @@
 ---
-title: My Happiness Filter
+title: My happiness filter
 date: 2022-07-01 08:49:10 +02:00
 tags: [health]
 description: A few specific habits are vital to my mental health. I've identified them and practice them everyday. Together, they make up my 'Happiness Filter'.
