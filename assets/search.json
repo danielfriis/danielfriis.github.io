@@ -1,0 +1,35 @@
+[
+  
+    {
+      "title"    : "Love the challenge, not the reward",
+      "description" : "I&#39;ve always been chasing the next goal, but I&#39;ve recently found that it&#39;s a flawed way of living. Instead, you need to find value in the challenges that might get you there.",
+      "tags"     : "health",
+      "url"      : "/love-the-challenge/",
+      "date"     : "2022-08-24 10:15:10 +0200"
+    } ,
+  
+    {
+      "title"    : "My happiness filter",
+      "description" : "A few specific habits are vital to my mental health. I&#39;ve identified them and practice them everyday. Together, they make up my &#39;Happiness Filter&#39;.",
+      "tags"     : "health",
+      "url"      : "/my-happiness-filter/",
+      "date"     : "2022-07-01 08:49:10 +0200"
+    } ,
+  
+    {
+      "title"    : "Strategy is problem-solving",
+      "description" : "There are many opinions about what strategy is and how to do it well. However, most people get it wrong. A good strategy is not goal-setting — it is problem-solving.",
+      "tags"     : "strategy",
+      "url"      : "/strategy-is-problem-solving/",
+      "date"     : "2022-05-06 15:06:10 +0200"
+    } ,
+  
+    {
+      "title"    : "Fighting the Dunning-Kruger effect",
+      "description" : "Writing notes. My way of expanding my knowledge and capture what I learn.",
+      "tags"     : "learning",
+      "url"      : "/fighting-the-dunning-kruger-effect/",
+      "date"     : "2022-05-03 14:07:47 +0200"
+    } 
+  
+]
