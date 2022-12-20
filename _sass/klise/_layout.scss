@@ -12,6 +12,13 @@
   @extend %clearfix;
 }
 
+.header {
+  a {
+    color: $text-link-blue;
+    text-decoration: none;
+  }
+}
+
 // Navigation
 .menu {
   user-select: none;

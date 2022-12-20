@@ -12,7 +12,7 @@ mode: light # default theme "dark" | "light"
 author:
   name: Daniel Friis # author name
   bio: >- # tell to the world
-    Reflections on technology, business, and design that I couldn’t find elsewhere.
+    Technology, business, but mostly random thoughts
   twitter: daniel_friis # twitter username
   linkedin: dfriis # linkedin username
   email: d@friis.me # email adress
