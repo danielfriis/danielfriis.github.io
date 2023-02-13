@@ -56,9 +56,6 @@ jekyll_compose:
     tags: []
     description:
 
-# Homepage limit posts
-number_of_posts: 5
-
 # Build settings
 # theme: klise
 sass:
@@ -66,6 +63,7 @@ sass:
 
 include:
   - _redirects
+  - _pages
   - .htaccess
 
 exclude:
@@ -87,3 +85,7 @@ plugins:
   - jekyll-feed
   - jekyll-sitemap
   - jekyll-postfiles
+  - jekyll-postcss
+
+postcss:
+  cache: false

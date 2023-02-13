@@ -26,12 +26,13 @@ layout: compress
     setTimeout(() => body.classList.remove("notransition"), 75);
   </script>
 
-  {% include navbar.html %}
-  <div class="wrapper">
-    {% include author.html %}
-    <main aria-label="Content">
+  <div class="flex flex-col px-20 max-w-prose mb-20">
+    <main class="mt-20" aria-label="Content">
       {{ content }}
     </main>
+    {% if page.next or page.previous %}
+      {% include navigation.html %}
+    {% endif %}
     {% include footer.html %}
   </div>
 </body>

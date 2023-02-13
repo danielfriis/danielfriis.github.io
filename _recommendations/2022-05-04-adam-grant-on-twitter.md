@@ -9,7 +9,7 @@ description:
 author_name: Adam Grant
 author_avatar: https://pbs.twimg.com/profile_images/1427272847643316232/9CeNBJAr_400x400.jpg
 author_handle: '@adamgrant'
-images:
+images: [https://pbs.twimg.com/profile_images/1427272847643316232/9CeNBJAr_400x400.jpg]
 ---
 
 Happiness is not a function of what you achieve. It's a function of how you spend your time.

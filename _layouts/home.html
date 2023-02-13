@@ -3,12 +3,31 @@ layout: default
 home: true
 ---
 
-<h3 class="posts-item-note" aria-label="Recent Posts">Recent Notes</h3>
-{%- for post in site.posts limit: site.number_of_posts -%}
-  <article class="post-item">
-    <span class="post-item-date">{{ post.date | date: "%b %d, %Y" }}</span>
-    <h4 class="post-item-title">
+<h1 class="text-2xl font-medium text-zinc-800">Daniel Friis</h1>
+<p class="mt-6 text-base text-zinc-500">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam velit amet quis deserunt veritatis quasi consectetur corrupti quae eum possimus? Maxime quasi debitis neque vel! Suscipit ea porro in dolorem.</p>
+
+<span class="w-full h-1 block border-y-1 border-black-800"></span>
+
+<h3 class="mt-10 text-lg text-zinc-800">Recent Notes</h3>
+{%- for post in site.posts limit: 5 -%}
+  <article class="mt-3">
+    <h4 class=" text-zinc-800">
       <a href="{{ post.url }}">{{ post.title | escape }}</a>
     </h4>
+    <span class="text-sm text-zinc-400">{{ post.date | date: "%b %d, %Y" }}</span>
+  </article>
+{%- endfor -%}
+
+
+<h3 class="mt-10 text-lg text-zinc-800">Recent Recommendations</h3>
+{%- for recommendation in site.recommendations reversed limit: 5 -%}
+  <article class="mt-3 flex flex-row">
+    <div class="w-24 h-24 bg-contain bg-no-repeat bg-center" style="background-image: url('{{ recommendation.images[0] }}');"></div>
+    <div class="flex-col pl-3">
+      <h4 class=" text-zinc-800">
+        <a href="{{ recommendation.source_url }}" target="_blank">{{ recommendation.title | escape }}</a>
+      </h4>
+      <span class="text-sm text-zinc-400">{{ recommendation.category | capitalize }}</span>
+    </div>
   </article>
 {%- endfor -%}

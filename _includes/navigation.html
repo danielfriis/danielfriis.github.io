@@ -1,16 +1,13 @@
-<nav class="post-nav">
+<nav class="flex flex-row mt-20 border-t border-zinc-200">
   {% if page.previous %}
-  <a
-    class="post-nav-item post-nav-prev"
-    href="{{ page.previous | relative_url }}"
-  >
-    <div class="nav-arrow">Previous</div>
-    <span class="post-title">{{ page.previous.title }}</span>
-  </a>
+    <a class="pr-3 w-1/2" href="{{ page.previous | relative_url }}">
+      <div class="text-zinc-400">Previous</div>
+      <span class="text-zinc-800">{{ page.previous.title }}</span>
+    </a>
   {% endif %} {% if page.next %}
-  <a class="post-nav-item post-nav-next" href="{{ page.next | relative_url }}">
-    <div class="nav-arrow">Next</div>
-    <span class="post-title">{{ page.next.title }}</span>
-  </a>
+    <a class="pl-3 w-1/2 text-right" href="{{ page.next | relative_url }}">
+      <div class="text-zinc-400">Next</div>
+      <span class="text-zinc-800">{{ page.next.title }}</span>
+    </a>
   {% endif %}
 </nav>
