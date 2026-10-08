@@ -1,0 +1,80 @@
+---
+title: Preview
+permalink: /preview/
+layout: preview
+sitemap: false
+comments: false
+---
+
+<header class="author preview-head">
+  <img class="author-avatar" src="{{ site.author.avatar }}" alt="{{ site.author.name }}" />
+  <h2 class="author-name">{{ site.author.name }}</h2>
+  <p class="preview-role">
+    <a href="https://www.twitter.com/{{ site.author.twitter }}" target="_blank" rel="noopener">@{{ site.author.twitter }}</a>
+    · research &amp; design at <a href="https://www.space10.com" target="_blank" rel="noopener">SPACE10</a>
+    · background in finance
+  </p>
+</header>
+
+<p class="preview-lede">
+  I work in the intersection of <em>technology, business, and design</em>.
+  I write notes to capture what I learn, and to find out what I actually understand.
+</p>
+
+<section class="preview-section">
+  <h3 class="posts-item-note">Work</h3>
+  <a class="post-item preview-row" href="https://www.space10.com" target="_blank" rel="noopener">
+    <span class="post-item-date">2015 — now</span>
+    <div>
+      <h4 class="post-item-title">SPACE10 <span class="preview-tag">current</span></h4>
+      <span class="preview-desc">Research &amp; design lab. Concept innovation on behalf of IKEA.</span>
+    </div>
+  </a>
+</section>
+
+<section class="preview-section">
+  <h3 class="posts-item-note">Notes</h3>
+  {%- for post in site.posts -%}
+  <a class="post-item preview-row" href="{{ post.url }}">
+    <span class="post-item-date">{{ post.date | date: "%b %Y" }}</span>
+    <div>
+      <h4 class="post-item-title">{{ post.title | escape }}</h4>
+      <span class="preview-desc">{{ post.description | escape }}</span>
+    </div>
+  </a>
+  {%- endfor -%}
+</section>
+
+<section class="preview-section">
+  <h3 class="posts-item-note">Currently</h3>
+  <dl class="preview-currently">
+    <div><dt>Based in</dt><dd>Copenhagen</dd></div>
+    <div><dt>Working at</dt><dd><a href="https://www.space10.com" target="_blank" rel="noopener">SPACE10</a></dd></div>
+    {%- assign latest = site.posts.first %}
+    <div><dt>Latest note</dt><dd><a href="{{ latest.url }}">{{ latest.title | escape }}</a></dd></div>
+  </dl>
+</section>
+
+<section class="preview-coffee">
+  <h4>In Copenhagen? Let's get coffee.</h4>
+  <p>Always happy to meet people working on technology, business, or design.</p>
+  <a class="preview-btn" href="mailto:{{ site.author.email }}">{{ site.author.email }} →</a>
+</section>
+
+<footer class="footer preview-foot">
+  <span class="footer_item">&copy; {{ site.time | date: "%Y" }} {{ site.title }}</span>
+  <span class="preview-links">
+    <a href="https://www.twitter.com/{{ site.author.twitter }}" target="_blank" rel="noopener" aria-label="Twitter">
+      <svg viewBox="0 0 24 24" fill="currentColor"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg>
+    </a>
+    <a href="https://www.linkedin.com/in/{{ site.author.linkedin }}" target="_blank" rel="noopener" aria-label="LinkedIn">
+      <svg viewBox="0 0 24 24" fill="currentColor"><path d="M20.45 20.45h-3.56v-5.57c0-1.33-.02-3.04-1.85-3.04-1.85 0-2.13 1.45-2.13 2.94v5.67H9.35V9h3.41v1.56h.05c.48-.9 1.64-1.85 3.37-1.85 3.6 0 4.27 2.37 4.27 5.46zM5.34 7.43a2.06 2.06 0 11.01-4.12 2.06 2.06 0 010 4.12zM7.12 20.45H3.56V9h3.56zM22.22 0H1.77C.79 0 0 .77 0 1.72v20.56C0 23.23.79 24 1.77 24h20.45c.98 0 1.78-.77 1.78-1.72V1.72C24 .77 23.2 0 22.22 0z"/></svg>
+    </a>
+    <a href="mailto:{{ site.author.email }}" aria-label="Email">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="m3 7 9 6 9-6"/></svg>
+    </a>
+    <a href="/feed.xml" aria-label="RSS">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 11a9 9 0 0 1 9 9"/><path d="M4 4a16 16 0 0 1 16 16"/><circle cx="5" cy="19" r="1"/></svg>
+    </a>
+  </span>
+</footer>

@@ -1,0 +1,247 @@
+// Preview: Klisé look, cundric.com page structure
+.preview {
+  .preview-head {
+    margin-bottom: 3rem;
+  }
+
+  .preview-role {
+    margin: 0 auto;
+    color: $gray;
+
+    a {
+      color: $text-base-color;
+      text-decoration-color: $smoke;
+
+      &:hover {
+        color: $text-link-blue;
+      }
+    }
+  }
+
+  .preview-lede {
+    font-size: 1.15em;
+    line-height: 1.6;
+    color: $black;
+    padding-top: 1.5rem;
+    margin-bottom: 3.5rem;
+    border-top: 1px solid $light;
+
+    em {
+      font-style: normal;
+      background: linear-gradient(180deg, transparent 62%, #fffba0 62%);
+    }
+  }
+
+  .preview-section {
+    margin-bottom: 3rem;
+  }
+
+  // Rows reuse .post-item and add a description line under the title
+  .preview-row {
+    text-decoration: none;
+    color: inherit;
+    transition: transform 0.2s ease;
+
+    &:hover {
+      transform: translateX(4px);
+
+      .post-item-title {
+        color: $text-link-blue;
+      }
+
+      .post-item-title::after {
+        opacity: 1;
+      }
+    }
+
+    .post-item-title::after {
+      content: " →";
+      color: $light-gray;
+      opacity: 0;
+      transition: opacity 0.2s ease;
+    }
+
+    &[target="_blank"] .post-item-title::after {
+      content: " ↗";
+    }
+  }
+
+  .preview-tag {
+    font-size: $smaller-font-size;
+    color: $gray;
+    border: 1px solid $light;
+    border-radius: 3px;
+    padding: 0 5px;
+    margin-left: 4px;
+    vertical-align: 1px;
+  }
+
+  .preview-desc {
+    display: block;
+    color: $gray;
+    font-size: $small-font-size;
+    line-height: 1.5;
+    padding-bottom: 4px;
+  }
+
+  .preview-currently {
+    margin: 0;
+    border-top: 1px solid $light;
+
+    div {
+      display: flex;
+      padding: 5px 0 6px;
+      line-height: 1.85;
+      border-bottom: 1px solid $light;
+    }
+
+    dt {
+      min-width: 96px;
+      padding-right: 10px;
+      color: $gray;
+    }
+
+    dd {
+      margin: 0;
+
+      a:hover {
+        color: $text-link-blue;
+      }
+    }
+  }
+
+  .preview-coffee {
+    margin-top: 4rem;
+    padding: 2rem 1.5rem;
+    text-align: center;
+    border-top: 1px solid $light;
+    border-bottom: 1px solid $light;
+
+    h4 {
+      margin: 0 0 5px;
+      font-size: $base-font-size;
+    }
+
+    p {
+      color: $gray;
+      margin-bottom: 1.2rem;
+    }
+  }
+
+  .preview-btn {
+    display: inline-block;
+    padding: 0.5rem 1rem;
+    font-size: $small-font-size;
+    text-decoration: none;
+    color: $white;
+    background: $black;
+    border-radius: 3px;
+
+    &:hover {
+      color: $white;
+      background: $text-link-blue;
+    }
+  }
+
+  .preview-foot {
+    margin-top: 4rem;
+  }
+
+  .preview-links {
+    display: inline-flex;
+    gap: 2px;
+    vertical-align: middle;
+
+    a {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      width: 32px;
+      height: 32px;
+      color: $black;
+      opacity: 0.8;
+      border-radius: 4px;
+
+      &:hover {
+        opacity: 1;
+        background: $light;
+      }
+    }
+
+    svg {
+      width: 16px;
+      height: 16px;
+    }
+  }
+
+  @include media-query($on-mobile) {
+    .preview-lede {
+      font-size: 1.05em;
+    }
+
+    // Date under the title, so long titles keep their width
+    .preview-row {
+      flex-direction: column;
+    }
+
+    .preview-links {
+      display: flex;
+      justify-content: center;
+      margin-top: 0.5rem;
+    }
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    .preview-row {
+      transition: none;
+
+      &:hover {
+        transform: none;
+      }
+    }
+  }
+}
+
+body[data-theme="dark"] .preview {
+  .preview-role a,
+  .preview-lede,
+  .preview-coffee h4 {
+    color: $dark-white;
+  }
+
+  .preview-role a:hover,
+  .preview-row:hover .post-item-title,
+  .preview-currently dd a:hover {
+    color: $dark-text-link-blue;
+  }
+
+  .preview-lede,
+  .preview-coffee,
+  .preview-currently,
+  .preview-currently div,
+  .preview-tag {
+    border-color: $dark-light;
+  }
+
+  .preview-lede em {
+    background: linear-gradient(180deg, transparent 62%, rgba(255, 82, 119, 0.35) 62%);
+  }
+
+  .preview-btn {
+    color: $dark-black;
+    background: $dark-white;
+
+    &:hover {
+      color: $dark-white;
+      background: $dark-text-link-blue;
+    }
+  }
+
+  .preview-links a {
+    color: $dark-white;
+
+    &:hover {
+      background: $dark-light;
+    }
+  }
+}
