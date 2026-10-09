@@ -3,12 +3,37 @@ layout: default
 home: true
 ---
 
-<h3 class="posts-item-note" aria-label="Recent Posts">Recent Notes</h3>
-{%- for post in site.posts limit: site.number_of_posts -%}
+<section class="home-section">
+  <h3 class="posts-item-note">Introduction</h3>
+  <p class="intro-text">{{ site.author.introduction }}</p>
+  <p class="intro-text">{{ site.author.advisory }}</p>
+</section>
+
+<section class="home-section">
+  <h3 class="posts-item-note">Work</h3>
+  {%- for work in site.data.work -%}
+  <article class="post-item work-item">
+    <span class="post-item-date">{{ work.dates }}</span>
+    <div>
+      {%- if work.url -%}
+      <h4 class="post-item-title"><a href="{{ work.url }}" target="_blank" rel="noopener">{{ work.title }}</a></h4>
+      {%- else -%}
+      <h4 class="post-item-title">{{ work.title }}</h4>
+      {%- endif -%}
+      <span class="work-description">{{ work.description }}</span>
+    </div>
+  </article>
+  {%- endfor -%}
+</section>
+
+<section class="home-section">
+  <h3 class="posts-item-note" aria-label="Recent Posts">Recent Notes</h3>
+  {%- for post in site.posts limit: site.number_of_posts -%}
   <article class="post-item">
     <span class="post-item-date">{{ post.date | date: "%b %d, %Y" }}</span>
     <h4 class="post-item-title">
       <a href="{{ post.url }}">{{ post.title | escape }}</a>
     </h4>
   </article>
-{%- endfor -%}
+  {%- endfor -%}
+</section>

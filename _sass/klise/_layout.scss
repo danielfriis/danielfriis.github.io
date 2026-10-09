@@ -231,6 +231,49 @@
   color: $black;
 }
 
+// Home sections
+.home-section {
+  margin-bottom: 3rem;
+}
+
+.intro-text {
+  line-height: 1.7;
+  margin-bottom: 0.5rem;
+  
+  a {
+    color: $text-link-blue;
+    text-decoration: none;
+    
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+}
+
+.work-item {
+  flex-direction: column;
+  
+  @media (min-width: 500px) {
+    flex-direction: row;
+  }
+  
+  .post-item-date {
+    min-width: 96px;
+    font-size: 0.9em;
+  }
+  
+  .post-item-title {
+    margin-bottom: 2px;
+  }
+}
+
+.work-description {
+  display: block;
+  color: $gray;
+  font-size: 0.9em;
+  line-height: 1.5;
+}
+
 // List of posts
 .post-item {
   display: flex;
